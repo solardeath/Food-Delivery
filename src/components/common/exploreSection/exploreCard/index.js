@@ -50,13 +50,13 @@ const ExploreCard = ({ restaurant }) => {
                 </span>
               );
             })}
-            {approxPrice && <div className="approx-price">{approxPrice}</div>}
           </div>
         )}
+        {approxPrice && <div className="approx-price">{approxPrice}</div>}
       </div>
       {bottomContainers.length > 0 && (
         <div>
-          <div className="card-seperator"></div>
+          <div className="card-separator"></div>
           <div className="explore-bottom">
             <img
               src={bottomContainers[0]?.image?.url}

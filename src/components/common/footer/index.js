@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
-  return <div>Made by Pronnoy</div>;
+  return <div className='absolute-center'>Made by Pronnoy</div>;
 };
 
 export default Footer;
